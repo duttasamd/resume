@@ -106,10 +106,20 @@ body {
 	color: grey;
 }
 
+.transparent0-5 {
+	opacity: 0.5;
+}
+
 @media only screen and (max-width: 1199px) {
 	#socialtop {
 		display: none;
 	}
+
+
+	#leftdiv {
+		border-right: none;
+	}
+
 }
 
 @media only screen and (max-width: 991px) {
@@ -150,6 +160,11 @@ body {
 @media only screen and (min-width: 1200px) {
 	#links {
 		width: 80%;
+	}
+
+	#leftdiv {
+		border-right: 1px solid;
+		border-color: lightgrey;
 	}
 }
 
