@@ -2,6 +2,14 @@
 	display: block;
 }
 
+.inline {
+	display: inline;
+}
+
+.valignmiddle {
+	vertical-align: middle;
+}
+
 .text-align-center {
 	text-align: center;
 }
@@ -27,8 +35,32 @@ body {
 	font-weight: 600;
 }
 
+.f400 {
+	font-weight: 400;
+}
+
+.f300 {
+	font-weight: 300;
+}
+
+.f200 {
+	font-weight: 200;
+}
+
+.fi {
+	font-style: italic;
+}
+
 .f2-5em {
 	font-size: 2.5em;
+}
+
+.f1-3em {
+	font-size: 1.3em;
+}
+
+.f0-8em {
+	font-size: 0.8em;
 }
 
 .bg-white {
@@ -64,6 +96,14 @@ body {
 .px-10 {
 	padding-left: 10%;
 	padding-right: 10%; 
+}
+
+.slategrey {
+	color: darkslategrey;
+}
+
+.lightgrey {
+	color: grey;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -104,6 +144,12 @@ body {
 @media only screen and (min-width: 768px) {
 	#downarrow {
 		display: none;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	#links {
+		width: 80%;
 	}
 }
 
